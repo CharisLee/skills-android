@@ -1,6 +1,6 @@
 {
   "name": "android-skills",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "displayName": "Android Skills",
   "description": "Android skills are Google's official dedicated repository of AI-optimized, modular instructions and resources, to help LLMs better understand and execute specific patterns that follow the best practices and guidance on Android development. Android skills follow the open-standard agent skills - markdown files (SKILL.md) that provide a technical specification of a task, and ground LLMs with information on specialized domains and workflows.",
   "author": {
@@ -21,6 +21,7 @@
     "./camera/camerax",
     "./cars/android-for-cars-parked-apps",
     "./device-ai/appfunctions",
+    "./device-ai/litert/litert-lm",
     "./device-ai/litert/litert-runtime",
     "./device-ai/ml-kit-genai-prompt-api",
     "./devtools/android-cli",
@@ -33,6 +34,7 @@
     "./media/media3-cast-integration",
     "./navigation/navigation-3",
     "./navigation/navigation-event",
+    "./performance/anr-audit-and-fix",
     "./performance/r8-analyzer",
     "./play/engage-sdk-integration",
     "./play/play-billing-library-version-upgrade",
@@ -46,6 +48,7 @@
     "./tv/leanback-to-compose-tv-migration",
     "./wear/wear-compose-m3",
     "./wear/wear-widgets",
-    "./xr/display-glasses-with-jetpack-compose-glimmer"
+    "./xr/display-glasses-with-jetpack-compose-glimmer",
+    "./xr/projected-hardware"
   ]
 }
